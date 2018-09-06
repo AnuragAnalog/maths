@@ -9,7 +9,8 @@
 
 /********* FUNCTION DECLARATION *********/
 float det3(float matrix[MAX][MAX]);
-float shift_mat(float coeff_mat[MAX][MAX], float const_mat[MAXM][MAXC], int ind);
+float shft_mat(float coeff_mat[MAX][MAX], float const_mat[MAXM][MAXC], int ind);
+int Error(char *message);
 
 /********* MAIN STARTS HERE *********/
 int main(void)
@@ -35,10 +36,15 @@ int main(void)
 
    det = det3(coeff_mat);
 
-   printf("x     y     z\n");
+   if (det == 0)
+   {
+      Error("The given set of equations have infinitely many solutions.");
+   }
+
+   printf("x       y       z\n");
    while (k < MAXM)
    {
-      del[k] = shift_mat(coeff_mat, const_mat, k);
+      del[k] = shft_mat(coeff_mat, const_mat, k);
       printf("%f ", del[k]/det);
       k++;
    }
@@ -82,7 +88,7 @@ float det3(float matrix[MAX][MAX])
    return det;
 }
 
-float shift_mat(float coeff_mat[MAX][MAX], float const_mat[MAXM][MAXC], int ind)
+float shft_mat(float coeff_mat[MAX][MAX], float const_mat[MAXM][MAXC], int ind)
 {
    int          i, j;
    float        det;
@@ -104,4 +110,10 @@ float shift_mat(float coeff_mat[MAX][MAX], float const_mat[MAXM][MAXC], int ind)
    det = det3(temp_mat);
 
    return det;
+}
+
+int Error(char *message)
+{
+   fprintf(stderr, "%s\n", message);
+   exit(1);
 }
