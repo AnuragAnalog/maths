@@ -10,3 +10,7 @@ This repo contains some basic maths solving programs.
     This program takes two integers as inputs and computes the number of combinations and the limit for each number is 30.
 
 There are some programs for performing some basic arithmetic on the matrices, transpose of a matrix, programs for finding det and inverse for 3x3 matrices, program for solving 3 Non-homogenous equations using cramer's rule.
+
+** playing-with-numbers **
+
+    In this directory, there are some special programs which says tells about the special properties of a given input number, like automorphic, neon, lab..etc., for the terminology see the documentation in the code.
