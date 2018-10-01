@@ -9,7 +9,7 @@ This repo contains some basic maths solving programs.
 3. combi.c
     This program takes two integers as inputs and computes the number of combinations and the limit for each number is 30.
 
-There are some programs for performing some basic arithmetic on the matrices, transpose of a matrix, programs for finding det and inverse for 3x3 matrices, program for solving 3 Non-homogenous equations using cramer's rule.
+There are some programs for performing some basic arithmetic on the matrices, transpose of a matrix, programs for finding det and inverse for 3x3 matrices, program for solving 3 Non-homogenous equations using cramer's rule, matrix inversion method.
 
 **playing-with-numbers**
 
