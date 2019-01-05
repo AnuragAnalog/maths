@@ -13,6 +13,7 @@ This repo contains some basic maths solving programs.
 
 There are some programs for performing some basic arithmetic on the matrices, transpose of a matrix, programs for finding det and inverse for 3x3 matrices and for nxn matrices, program for solving 3 Non-homogenous equations using cramer's rule, matrix inversion method, there are programs which solves n Non-homogenous equations using gauss-jordan, gauss-elimination which you can see in the repository Numerical-Analysis/linear-equations.
 
-**playing-with-numbers**
+For every py file check the documentation to see what it does.
 
+**playing-with-numbers**
     In this directory, there are some special programs which says tells about the special properties of a given input number, like automorphic, neon, lab..etc., for the terminology see the documentation in the code.

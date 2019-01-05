@@ -1,5 +1,7 @@
 #!/usr/bin/python3.6
 
+""" This program takes the co-efficients of the quadratic equation as input computes the roots even if they are complex and does the computation for a complex-valued function. """
+
 from cmath import sqrt as csqrt
 from math import sqrt
 
@@ -30,10 +32,10 @@ def complexvalue(z):
 real = list()
 imag = list()
 for i in range(3):
-    print("Enter the co-efficent of x^",i)
-    print("Real part of x^",i)
+    print(f"Enter the co-efficent of x^{i}")
+    print("Real part of x^{i}")
     a = float(input(""))
-    print("Imag part of x^",i)
+    print("Imag part of x^{i}")
     b = float(input(""))
     real.append(a)
     imag.append(b)
