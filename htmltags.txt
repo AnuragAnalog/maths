@@ -1,0 +1,13 @@
+HTMl tags:
+
+1. DOCTYPE tag.
+    -> HTML document type declaration.
+    -> Is an instruction to the web browser about what version of HTML the page is written in.
+
+2. a tag.
+    -> This tag defines a hyperlink.
+    -> help to navigate to page to another.
+
+3. img tag.
+    -> This tag is used to embed an image in an HTML page.
+    -> It creates a holding space for the referenced image.
