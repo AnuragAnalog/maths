@@ -1,13 +1,86 @@
 HTMl tags:
+Few tags in HTML have closing tags.
+Example :-<li>...text...</li>
+          <td>...text...</td>
 
-1. DOCTYPE tag.
+1. <!DOCTYPE>
     -> HTML document type declaration.
     -> Is an instruction to the web browser about what version of HTML the page is written in.
 
-2. a tag.
+2. <a>
     -> This tag defines a hyperlink.
     -> help to navigate to page to another.
 
-3. img tag.
+3. <img>
     -> This tag is used to embed an image in an HTML page.
     -> It creates a holding space for the referenced image.
+
+4. <html>
+    ->Defines an HTML document
+    ->Says the type of language being used
+
+5. <head>
+    ->Contains metadata/information for the document
+    ->Used for segregating between parts of code
+
+6. <title>
+    ->Defines a title for the document
+    ->Used for naming your webpage
+
+7. <body>
+    ->Defines the document's body
+    ->Used for segregating between parts of code
+
+8. <h1> to <h6>
+    ->Defines HTML headings
+    ->Used for changing size of the text of heading
+
+9. <p>
+    ->Defines a paragraph
+    ->Used before typing a paragraph
+
+10.<br>
+    ->Inserts a single line break
+    ->Used to send the upcoming content to the next line
+
+11.<ul>
+    ->Defines an unordered list
+    ->Creates a list
+
+12.<ol>
+    ->Defines an ordered list
+    ->Creates a bulleted list
+
+13.<li>
+    ->Defines a list item
+
+14.<table>
+    ->Defines a table
+
+15.<th>
+    ->Defines a header cell in a table
+
+16.<tr>
+    ->Defines a row in a table
+
+17.<td>
+    ->Defines a cell in a table
+    ->Used for listing the content in particular cell
+
+18.<b>
+    ->Defines bold text
+
+19.<pre>
+    ->Defines preformatted text
+
+20.<sub>
+    ->Defines subscripted text
+
+21.<sup>
+    ->Defines superscripted text
+
+22.<u>
+    ->Defines italic text
+
+23.<i>
+    ->Defines underlined text
