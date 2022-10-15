@@ -84,3 +84,23 @@ Example :-<li>...text...</li>
 
 23.<i>
     ->Defines underlined text
+
+24.<section>
+    ->Part of semantic html elements (i.e. elements with a meaning)
+    ->Defines a section in a document.
+    
+25.<article>
+    ->A semantic element which specifies independent, self-contained content.
+    ->Use for forum/blog posts, comments etc.
+    
+25.<header>
+    ->A semantic tag which represents a container for introductory content or a set of navigational links.
+    ->Typically contains one or more heading tags (h1 to h6) as well as can be used for logo or icon.
+    
+26.<footer>
+    ->A semantic tag that defines a footer for a document or section.
+    ->typically contains information about authorship, copyright, contact, back to top links etc.
+
+27.<nav>
+    ->A semantic element that defines a set of navigation links, especially a block of links.
+    ->Browsers and screen readers can use this element to determine whether to omit the initial rendering of this content.
